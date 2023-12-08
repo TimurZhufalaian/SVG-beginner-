@@ -1,5 +1,7 @@
+svg {
+  display: block;
+}
 /* Анімація кольору заливки */
-
 .animated-shape {
   animation: changeColors 5s infinite alternate; /* Анімація кольорів */
 }
