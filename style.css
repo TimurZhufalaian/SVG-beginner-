@@ -1,0 +1,20 @@
+/* Анімація кольору заливки */
+
+.animated-shape {
+  animation: changeColors 5s infinite alternate; /* Анімація кольорів */
+}
+
+@keyframes changeColors {
+  0% {
+    stroke: blue; /* Початковий колір кордону */
+    fill: yellow; /* Початковий колір заливки */
+  }
+  50% {
+    stroke: red; /* Поміжний колір кордону */
+    fill: green; /* Поміжний колір заливки */
+  }
+  100% {
+    stroke: green; /* Кінцевий колір кордону */
+    fill: red; /* Кінцевий колір заливки */
+  }
+}
